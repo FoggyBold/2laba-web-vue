@@ -2,8 +2,8 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <ProgressBar />
-    <ProgressBar />
+    <ProgressBar :startValue="10"/>
+    <ProgressBar :startValue="100"/>
   </div>
 </template>
 

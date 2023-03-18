@@ -19,13 +19,16 @@
       props: {
         startValue: {
           type: Number,
-          default: 0,
+          default: 0
         }
       },
       data: () => {
         return {
           percentage: 0
         }
+      },
+      created: function(){
+        this.percentage = this.startValue
       },
       computed : {
         percent() {
