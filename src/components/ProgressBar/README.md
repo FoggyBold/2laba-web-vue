@@ -8,7 +8,6 @@ ProgressBar
 - [Methods](#Methods)
 - [Использование](#Использование)
 - [Примеры](#Примеры)
-- [Команда проекта](#команда-проекта)
 
 ## Параметры
 startValue - начальное значение для progress bar, тип - Number, деволтное значение - 0
@@ -28,6 +27,6 @@ increase - увеличивется число процентов на 10 при
 ## Использование
 <ProgressBar :startValue="..что-то.."/>
 
-## Использование
-Одиночная прогресс линия
+## Примеры
 ![image](https://github.com/FoggyBold/2laba-web-vue/blob/main/tests/single.gif)
+![image](https://github.com/FoggyBold/2laba-web-vue/blob/main/tests/notsingle.gif)

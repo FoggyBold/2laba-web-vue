@@ -2,13 +2,13 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <ProgressBar :startValue="10"/>
-    <ProgressBar :startValue="100"/>
+    <ProgressBar :startValue="10" />
+    <ProgressBar :startValue="89" />
   </div>
 </template>
 
 <script>
-import ProgressBar from './components/ProgressBar.vue'
+import ProgressBar from './components/ProgressBar/ProgressBar.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
